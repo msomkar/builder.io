@@ -1,0 +1,38 @@
+
+body{
+  font-family: Lato;
+}
+#landing{
+  background-color:#a18bcc;
+  color:#FFF;
+  text-align: center;
+  padding: 3em 0em;
+  nav a{
+   color: #FFF;
+   text-decoration: none;
+   margin-left: 1.5em;
+   &.active{
+     font-weight: bold;
+     border-bottom: 2px solid #FFF;
+     padding-bottom: 0.5em;
+   }
+ }
+  a.action{
+   background-color: #4bd9dd;
+   border-radius: 2px;
+   color: #FFF;
+   width:10em;
+   text-transform: uppercase;
+        font-weight: bold;
+     padding:0.8em;
+ }
+ h1{
+   font-size: 4em;
+   margin-top: 2em;
+ }
+ p{
+   font-size: 1.3em;
+   margin: 1em 0;
+ }
+
+}

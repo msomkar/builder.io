@@ -1,5 +1,5 @@
 body {
-  font-family: Lato; }
+  font-family: 'Sintony'; }
 
 #landing {
   background-color: #a18bcc;
@@ -28,5 +28,24 @@ body {
   #landing p {
     font-size: 1.3em;
     margin: 1em 0; }
+  #landing .img-container {
+    position: relative;
+    margin-top: 3em; }
+  #landing .caption {
+    position: absolute;
+    margin: -8em 3em; }
+  #landing .likes {
+    position: absolute;
+    bottom: -15em;
+    right: 8em;
+    font-size: 1.8em;
+    margin-right: 0.2em; }
+  #landing .edit {
+    position: absolute;
+    top: 15em;
+    right: 7em;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.3em; }
 
 /*# sourceMappingURL=styles.css.map */

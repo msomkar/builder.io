@@ -1,11 +1,8 @@
-body {
-  font-family: 'Sintony'; }
-
 #landing {
   background-color: #a18bcc;
   color: #FFF;
   text-align: center;
-  padding: 3em 0em; }
+  padding-top: 3em; }
   #landing nav a {
     color: #FFF;
     text-decoration: none;
@@ -32,13 +29,13 @@ body {
     font-size: 1.3em;
     margin: 1em 0;
     text-align: left; }
-  #landing .date {
-    font-size: 1.3em;
-    margin: 1em 0;
-    text-align: left; }
   #landing .img-container {
     position: relative;
     margin-top: 3em; }
+    #landing .img-container .date {
+      font-size: 1.3em;
+      margin: 1em 0;
+      text-align: left; }
     #landing .img-container .caption {
       position: absolute;
       margin: -8em 3em; }
@@ -55,5 +52,35 @@ body {
       font-size: 2em;
       background-color: rgba(0, 0, 0, 0.5);
       padding: 0.3em; }
+
+body {
+  font-family: 'Sintony'; }
+
+#intro {
+  background-color: #FFF;
+  color: #000;
+  text-align: center;
+  padding: 3em 0em; }
+  #intro a.gs {
+    background-color: #a18bcc;
+    color: #FFF;
+    padding: 1.3em 4em;
+    border-radius: 2px;
+    margin-right: 0.6em; }
+  #intro a.td {
+    border-color: #c0c4c7;
+    padding: 1.3em 4em;
+    border-radius: 2px;
+    margin-left: 0.6em; }
+  #intro h2 {
+    color: #c0c4c7;
+    font-size: 2.5em;
+    margin-top: 2em; }
+  #intro p {
+    color: #c0c4c7;
+    margin-top: 1.5em;
+    font-size: 1.3em;
+    margin-right: 5%;
+    margin-left: 5%; }
 
 /*# sourceMappingURL=styles.css.map */
